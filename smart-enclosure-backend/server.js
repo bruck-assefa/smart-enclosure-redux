@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 app.use(cors({
-  origin: ['https://bruck.gg', 'https://api.bruck.gg'],
+  origin: ['https://bruck.gg', 'https://api.bruck.gg', 'https://bruck.gg:5173', 'bruck.gg:5173'],
   credentials: true
 }))
 
