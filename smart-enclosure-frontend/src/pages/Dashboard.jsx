@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ZoneAverages } from "../components/ZoneAverages";
 import { LightTimes } from "../components/LightTimes";
 import { TemperatureChart } from "../components/TemperatureChart";
-import SettingsModal from "../components/SettingsModal";
+import SettingsModal from "./SettingsModal";
 
 function Dashboard() {
   const [isSettingsOpen, setSettingsOpen] = useState(false);
